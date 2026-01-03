@@ -7,6 +7,8 @@ import Dashboard from "./pages/Dashboard";
 import DailyCheckIn from "./pages/DailyCheckIn";
 import Breathing from "./pages/Breathing";
 import Journal from "./pages/Journal";
+import Learn from "./pages/Learn";
+
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
         <Route path="/daily-checkin" element={<DailyCheckIn />} />
         <Route path="/breathing" element={<Breathing />} />
         <Route path="/journal" element={<Journal />} />
+        <Route path="/learn" element={<Learn />} />
+
 
 
       </Routes>
