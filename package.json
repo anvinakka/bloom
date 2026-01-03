@@ -1,0 +1,23 @@
+{
+  "name": "bloom-app",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://anvinakka.github.io/bloom-app",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
+    "framer-motion": "^10.12.16",
+    "lucide-react": "^0.268.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "react-scripts": "5.0.1"
+  }
+}
