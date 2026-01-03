@@ -4,8 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Onboarding from "./pages/Onboarding";
 import Dashboard from "./pages/Dashboard";
-
-
+import DailyCheckIn from "./pages/DailyCheckIn";
 
 function App() {
   return (
@@ -14,6 +13,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/daily-checkin" element={<DailyCheckIn />} />
+
 
       </Routes>
     </Router>
