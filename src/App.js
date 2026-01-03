@@ -12,6 +12,8 @@ import Breathing from "./pages/Breathing";
 import Journal from "./pages/Journal";
 import Learn from "./pages/Learn";
 import Guide from "./pages/Guide";
+import Privacy from "./pages/Privacy";
+
 
 function App() {
   return (
@@ -30,6 +32,7 @@ function App() {
           <Route path="/journal" element={<Journal />} />
           <Route path="/learn" element={<Learn />} />
           <Route path="/guide" element={<Guide />} />
+          <Route path="/privacy" element={<Privacy />} />
         </Route>
       </Routes>
     </Router>
