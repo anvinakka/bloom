@@ -8,6 +8,7 @@ import DailyCheckIn from "./pages/DailyCheckIn";
 import Breathing from "./pages/Breathing";
 import Journal from "./pages/Journal";
 import Learn from "./pages/Learn";
+import Guide from "./pages/Guide";
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/breathing" element={<Breathing />} />
         <Route path="/journal" element={<Journal />} />
         <Route path="/learn" element={<Learn />} />
+        <Route path="/guide" element={<Guide />} />
 
 
 
